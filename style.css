@@ -31,9 +31,11 @@ body {
 .menu_section.left .logo {
   height: 5rem;
   margin-top: 0.59rem;
+  padding: 12px 0;
 }
 
 .menu_link {
+  align-items: center;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 900;
