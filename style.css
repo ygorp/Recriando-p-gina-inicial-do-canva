@@ -160,6 +160,8 @@ body {
 }
 
 .footer_termo > a {
+  margin-left: 1500px;
+  margin-top: 3rem;
   display: flex;
   color: #ffffff;
   font-size: 18px;
@@ -170,6 +172,7 @@ body {
 .footer_lingua > select {
   display: flex;
   align-items: center;
+  margin-top: 3rem;
   background: rgba(0, 0, 0, 0.3);
   width: 10rem;
   height: 3rem;
