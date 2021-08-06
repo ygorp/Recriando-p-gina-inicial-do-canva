@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.54);
+}
+
+.menu {
+  height: 48px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.menu_section {
+  display: flex;
+  align-items: center;
+}
+
+.menu_section.left .logo {
+  height: 5rem;
+  margin-top: 0.59rem;
+}
+
+.menu_link {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 12px 8px;
+}
+
+.menu_link:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.menu_section.right {
+  margin-right: 4px;
+  padding: 12px;
+}
+
+.menu_section.right > button {
+  width: 5rem;
+  height: 2rem;
+  background: transparent;
+  border: 1.5px solid #ffffff;
+  margin-right: 1rem;
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.menu_section.right > button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.menu_section2.right > button {
+  width: 5rem;
+  height: 2rem;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1.5px solid #ffffff;
+  cursor: pointer;
+}
+
+.menu_section2.right > button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
