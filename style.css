@@ -136,3 +136,40 @@ body {
   border-radius: 2px;
   margin-bottom: 1rem;
 }
+
+.content_final > a {
+  color: rgba(0, 0, 0, 0.58);
+  text-decoration: underline;
+}
+
+.content_final > p {
+  margin-top: 1rem;
+}
+
+.content_final > p a {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 24px;
+  display: flex;
+}
+
+.footer_termo > a {
+  display: flex;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.footer_lingua > select {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  width: 10rem;
+  height: 3rem;
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+}
