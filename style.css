@@ -13,10 +13,9 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background: url(/img/Canva-1.jpg);
-  box-shadow: 5px 5px 0 #333;
-  -webkit-box-shadow: 5px 5px 0 #333;
-  -moz-box-shadow: 5px 5px 0 #333;
+  background-image: url(/img/Canva-1.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 .menu {
